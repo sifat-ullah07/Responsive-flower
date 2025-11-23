@@ -100,13 +100,15 @@
    padding: 16px 126px;
 }
 
-
+.flower-title{
+    margin: 0px 69px 0px 69px;
+}
 
 
 .flower-price{
     
     
-    margin-top: 20px;
+    margin: 6px 94.5px 0px 94.5px;
 
 }
 .button{
@@ -217,4 +219,103 @@ ul{
     border-radius: 8px;
     filter: grayscale(40%);
 
+}
+/* colourful bunch style */
+.cta-banner {
+    /* Set the background image and height */
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    width: 100%;
+    background-position: center;
+    height: 533px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+
+/* --- 2. Content Centering and Text Styling --- */
+.content-wrapper {
+    text-align: center;
+    color: white;
+    padding: 199px 305px 193px 305px;
+}
+
+.cta-heading {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* --- 3. Form Layout (Flexbox for alignment) --- */
+.subscribe-form {
+    display: flex; 
+    justify-content: center;
+    width: 1140px;
+    width: 100%;
+
+}
+
+.email-input {
+   
+    flex-grow: 1; 
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1em;
+    max-width: 350px; 
+}
+/* --- 4. Button Styling --- */
+.subscribe-button {
+    background-color: #ff6622; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+/* footwr relaled style */
+.footer{
+    display: flex;
+    padding: 50px 160px;
+    width: 1140px;
+}
+.image{
+    margin-bottom: 18px;
+    width: 135px;
+    height: 82px;
+}
+.description{
+    margin-right: 110.67px;
+    margin-bottom: 69px;
+}
+.footer-description{
+    color: rgba(107, 114, 128, 1);
+}
+.ol-1{
+    width: 100px;
+    height: 248px;
+    padding: 32px;
+    margin: auto;
+    color: rgba(107, 114, 128, 1);
+
+}
+.ol-2{
+    width: 140px;
+    height: 248px;
+    padding: 32px;
+    margin: auto;
+    color: rgba(107, 114, 128, 1);
+}
+.sponsor-flex{
+    display: flex;
+    width: 216px;
+    height: 36px;
+    gap: 24px;
+    margin-left: 50px;
 }
