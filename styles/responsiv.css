@@ -32,17 +32,7 @@
 .colour{
     color: #8987A1;
 }
-/* .nav-link{
-    text-decoration: none;
-    font-weight: 500;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    padding: 0 22px;
-    gap: 48px;
-    margin-top: 120X;
-    margin-bottom: 120PX;
-} */
+
  .nav-links{
     justify-content: space-between;
    
@@ -177,7 +167,9 @@ ul{
     margin-bottom: 135.88px;
     margin-left: 140px;
     width: 1140px;
+    white-space: 100%;
     height: 423.13px;
+    background-position: center;
 
 }
 .offer-card{
